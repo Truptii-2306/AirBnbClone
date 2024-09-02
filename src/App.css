@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +30,72 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav--logo {
+  max-width: 180px;
+}
+
+section {
+  padding: 20px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero--photo {
+  max-width: 400px;
+  align-self: center;
+}
+
+.hero--header {
+  margin-bottom: 16px;
+}
+
+.hero--text {
+  margin-top: 0;
+}
+
+.card--div {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  width: 175px;
+  font-size: 12px;
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 0px 5.98256px 8.4564px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255);
+  text-align: left;
+}
+
+.card--image {
+  width: 100%;
+  height: 200px;
+  border-radius: 9px;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+}
+
+.card--star {
+  margin-top: 4px;
+  height: 14px;
 }
